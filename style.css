@@ -152,13 +152,11 @@ h3 {
 .about-me {
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    position: relative;
+    text-align: center;
 }
 
 .resume-btn {
-    position: absolute;
-    margin: 0 auto;
-    display: block;
+    margin-top: 50px;    
     color: var(--clr-light);
     background-color: #16e0bd;
 
