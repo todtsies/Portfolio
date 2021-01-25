@@ -53,6 +53,32 @@ img {
 }
 
 strong { font-weight: var(--fw-bold); }
+
+:focus {
+    outline: 3px solid var(--clr-accent);
+    outline-offset: 3px;
+}
+
+/* Buttons */
+
+.btn {   
+    color: var(--clr-dark);
+    background-color: #16e0bd;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2x;
+    transition: 200ms ease-in-out;
+}
+.resume-btn {
+    margin-top: 50px;
+    margin-bottom: -40px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
 /* Typography */
 
 h1,
@@ -115,6 +141,7 @@ h3 {
 
 .intro-image {
     box-shadow: var(--bs);
+    height: 300px;
 }
 
 .section-subtitle-intro {
@@ -134,7 +161,7 @@ h3 {
     }
     .intro-image {
         grid-area: img;
-        min-width: 250px;
+        min-width: 300px;
         position: relative;
         z-index: 2;
     }
@@ -155,9 +182,49 @@ h3 {
     text-align: center;
 }
 
-.resume-btn {
-    margin-top: 50px;    
+.section-title-about {
     color: var(--clr-light);
-    background-color: #16e0bd;
+    position: relative;
+    margin-bottom: 90px;
+}
+.section-title-about::after {
+    content: '';
+    display: block;
+    width: 5em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: var(--clr-light);
+    opacity: 0.25;
+}
 
+.section-subtitle-about {
+    margin-top: -40px;
+    color: black;
+}
+
+.section-title-mywork {
+    margin-bottom: 40px;
+}
+.card-container {
+    margin-top: 40px;
+}
+.contact-me {
+    margin-top: -70px;
+}
+
+.bg-accent {
+    color: var(--clr-accent);
+}
+
+#contact-details {
+    margin-top: -20px;
+}
+
+a:hover {
+    color: black;
+}
+
+footer {
+    background-color: #16e0bd;
+    color: black;
 }
