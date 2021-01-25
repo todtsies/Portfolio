@@ -192,7 +192,7 @@ header {
     }
 } 
 
-/* About me sectioin styles */
+/* About me section styles */
 
 .about-me {
     background-color: var(--clr-dark);
@@ -203,7 +203,8 @@ header {
 .section-title-about {
     color: var(--clr-light);
     position: relative;
-    margin-bottom: -20px;    
+    margin-bottom: -20px;
+    margin-left: 35px; 
 }
 .section-title-about::after {
     content: '';
