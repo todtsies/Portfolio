@@ -129,14 +129,25 @@ h3 {
     margin-bottom: 1em;
 }
 
-.nav {
-    display: none;
+/* Nav Bar */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.logo {
+    color: white;
+}
+.navbar-toggler {
+    color: white;
 }
 
 /* Intro section */
 
 .intro {
     position: relative;
+    margin-top: -40px;
 }
 
 .intro-image {
@@ -206,7 +217,12 @@ h3 {
     margin-bottom: 40px;
 }
 .card-container {
-    margin-top: 40px;
+    margin-top: 20px;
+}
+
+.card {
+    margin-top: 25px;
+    border: 1.5px solid var(--clr-dark);
 }
 .contact-me {
     margin-top: -70px;
@@ -227,4 +243,7 @@ a:hover {
 footer {
     background-color: #16e0bd;
     color: black;
+    position: absolute;
+    width: 100%;
+    margin-bottom: -50px;
 }
