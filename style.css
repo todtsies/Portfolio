@@ -3,7 +3,9 @@
 *::after {
     box-sizing: border-box;
 }
+
 /* Custom properties */
+
 :root {
     --ff-primary: 'Source Sans Pro', sans-serif;;
     --ff-secondary: 'Source Code Pro', monospace;;
@@ -83,6 +85,7 @@ strong { font-weight: var(--fw-bold); }
     justify-content: center;
     margin-left: -5px;
 }
+
 /* Typography */
 
 h1,
@@ -104,8 +107,6 @@ h3 {
     font-size: var(--fs-h3);
 }
 
-
-
 .section-title {
     margin-bottom: .25em;
 }
@@ -115,6 +116,22 @@ h3 {
     font-size: var(--fs-h3)
 }
 
+/* Nav Bar styles */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.logo {
+    color: white;
+}
+.navbar-toggler {
+    color: white;
+}
+
+/* Introduction styles */
 
 .section-title-intro {
     font-weight: var(--fw-reg);
@@ -132,22 +149,6 @@ h3 {
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
 }
-
-/* Nav Bar */
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-}
-
-.logo {
-    color: white;
-}
-.navbar-toggler {
-    color: white;
-}
-
-/* Intro section */
 
 .intro {
     position: relative;
@@ -191,6 +192,8 @@ header {
     }
 } 
 
+/* About me sectioin styles */
+
 .about-me {
     background-color: var(--clr-dark);
     color: var(--clr-light);
@@ -213,10 +216,13 @@ header {
 }
 
 .section-subtitle-about {
-    margin-top: -100px;
+    margin-top: 5px;
     color: black;
     display: inline-block;
+    
 }
+
+/* My work section styles */
 
 .section-title-mywork {
     margin-bottom: 40px;
@@ -229,6 +235,8 @@ header {
     margin-top: 25px;
     border: 1.5px solid var(--clr-dark);
 }
+
+/* Contact Me section styles */
 
 .contact-me {
     margin-top: -70px;
@@ -246,6 +254,8 @@ header {
 a:hover {
     color: black;
 }
+
+/* Footer section styles */
 
 footer {
     background-color: #16e0bd;

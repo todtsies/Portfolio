@@ -10,6 +10,4 @@ This is my porfolio page! I created 4 different parts to this page - an introduc
 
 Links to Deployed Application:
 
-https://github.com/todtsies/Portfolio
-
 https://todtsies.github.io/Portfolio/
