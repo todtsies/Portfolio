@@ -79,6 +79,10 @@ strong { font-weight: var(--fw-bold); }
     transform: scale(1.1);
 }
 
+.card-btn {
+    justify-content: center;
+    margin-left: -5px;
+}
 /* Typography */
 
 h1,
@@ -196,7 +200,7 @@ header {
 .section-title-about {
     color: var(--clr-light);
     position: relative;
-    margin-bottom: 90px;
+    margin-bottom: -20px;    
 }
 .section-title-about::after {
     content: '';
@@ -209,8 +213,9 @@ header {
 }
 
 .section-subtitle-about {
-    margin-top: -40px;
+    margin-top: -100px;
     color: black;
+    display: inline-block;
 }
 
 .section-title-mywork {
@@ -224,8 +229,10 @@ header {
     margin-top: 25px;
     border: 1.5px solid var(--clr-dark);
 }
+
 .contact-me {
     margin-top: -70px;
+    margin-bottom: -30px;
 }
 
 .bg-accent {
@@ -243,7 +250,8 @@ a:hover {
 footer {
     background-color: #16e0bd;
     color: black;
-    position: absolute;
+    position: static;
     width: 100%;
-    margin-bottom: -50px;
+    height: auto;
+    margin-bottom: 0;
 }
