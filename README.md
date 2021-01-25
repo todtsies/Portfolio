@@ -2,7 +2,7 @@ Welcome to my Portfolio!
 
 Screeshots:
 
-![Application Preview](img/Todt-alDeveloper.gif)
+![Application Preview](assets/img/Todt-alDeveloper.gif)
 
 Description:
 
