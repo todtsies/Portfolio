@@ -209,9 +209,9 @@ header {
 .section-title-about::after {
     content: '';
     display: block;
-    width: 5em;
+    width: 200px;
     height: 1px;
-    margin: 0.5em auto 1em;
+    margin: 0.5em auto 1em auto;
     background: var(--clr-light);
     opacity: 0.25;
 }
@@ -230,11 +230,18 @@ header {
 }
 .card-container {
     margin-top: 20px;
+    text-align: center;
 }
 
 .card {
     margin-top: 25px;
     border: 1.5px solid var(--clr-dark);
+}
+
+@media (min-width: 615px) {
+    .card-container {
+        justify-content: center;
+    }
 }
 
 /* Contact Me section styles */
