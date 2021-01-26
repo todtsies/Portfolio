@@ -15,7 +15,7 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #cf83ec;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -65,7 +65,7 @@ strong { font-weight: var(--fw-bold); }
 
 .btn {   
     color: var(--clr-dark);
-    background-color: #16e0bd;
+    background-color: #cf83ec;
     cursor: pointer;
     text-transform: uppercase;
     font-weight: 800;
@@ -259,7 +259,7 @@ a:hover {
 /* Footer section styles */
 
 footer {
-    background-color: #16e0bd;
+    background-color: #cf83ec;
     color: black;
     position: static;
     width: 100%;
